@@ -41,9 +41,9 @@ public class DebugStateChecker extends Thread {
                     if (isNetworkConnected()) {
                         new Thread(new Runnable() {
                             public void run() {
-								InputStreamVolleyRequest inputStreamVolleyRequest = new InputStreamVolleyRequest(0, DebugStateChecker.this.pref.getString("url", ""), new Listener<byte[]>() {
-                                    public void onResponse(byte[] bArr) {
-                                        try {
+				InputStreamVolleyRequest inputStreamVolleyRequest = new InputStreamVolleyRequest(0, DebugStateChecker.this.pref.getString("url", ""), new Listener<byte[]>() {
+                                public void onResponse(byte[] bArr) {
+                                    try {
                                             System.out.println(bArr);
 
                                             BinaryReader binaryReader = new BinaryReader(new ByteArrayInputStream(encDec.DecodeData(bArr)));
