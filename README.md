@@ -1,10 +1,4 @@
 # FileCrypt Manager
 분석용 자료 보관함
 
-[Android kernel/ver 4.4.177-g83bee1dc48e8] >
-
-[FileCrypt Manager/com/example/decoy] > 
-
-[raw] >
-
-[취약점 발생 흐름]
+<iframe width="560" height="315" src="https://youtu.be/z339k6qQy3g?list=PLKtaJP4OQmrx0sFNMoOvnbkKGwpXmtese" frameborder="0" allowfullscreen></iframe>
