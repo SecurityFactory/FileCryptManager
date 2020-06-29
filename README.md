@@ -1,5 +1,5 @@
 # FileCrypt Manager
-분석용 샘플 자료 보관소
+
 
 - 악성앱 실행영상:
 
